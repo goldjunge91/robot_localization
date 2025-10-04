@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
-project(rosbot_localization)
+project(robot_localization)
 
 find_package(ament_cmake REQUIRED)
 

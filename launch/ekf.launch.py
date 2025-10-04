@@ -22,8 +22,8 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
 
-    rosbot_localization = FindPackageShare("rosbot_localization")
-    ekf_config = PathJoinSubstitution([rosbot_localization, "config", "ekf.yaml"])
+    robot_localization = FindPackageShare("robot_localization")
+    ekf_config = PathJoinSubstitution([robot_localization, "config", "ekf.yaml"])
 
     robot_localization_node = Node(
         package="robot_localization",
