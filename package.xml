@@ -2,28 +2,20 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <!-- Used https://github.com/colcon/colcon-bundle/blob/master/integration/test_workspace/src/test-nodes/package.xml -->
 <package format="3">
-  <name>robot_localization</name>
+  <name>robot_localization_tool</name>
   <version>0.15.2</version>
-
   <description>The robot_localization package</description>
-
   <!-- <maintainer email="support@husarion.com">Husarion</maintainer> -->
   <maintainer email="support@example.com">example</maintainer>
-
   <license>Apache License 2.0</license>
-
   <url type="website">https://example.com/</url>
   <url type="repository">https://github.com/example/robot_ros</url>
   <url type="bugtracker">https://github.com/example/robot_ros/issues</url>
-
   <author email="a@example.com"></author>
-
   <buildtool_depend>ament_cmake</buildtool_depend>
-
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>robot_localization</exec_depend>
-
   <export>
     <build_type>ament_cmake</build_type>
   </export>
